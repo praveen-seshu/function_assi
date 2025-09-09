@@ -28,7 +28,9 @@ class Operator_Overloading2:
         self.so_marks=so_marks
         self.mat_marks=mat_marks
 ob_2=Operator_Overloading2(4,5,6)
+ob_1 + ob_2
 
 
             
+
         
