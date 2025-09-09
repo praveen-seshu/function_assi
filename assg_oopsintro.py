@@ -27,5 +27,13 @@ print(cal1.made_in)
 print(cal2.color)
 print(cal2.discount)
 
-
+class Adv_calcu(calculator):
+    def Flot_div(self,a,b):
+        if b!=0:
+            print("float division of a,b:",a//b)
+        else:
+            print("zero division error")
+ad_obj=Adv_calcu()
+ad_obj.add(2,3)
+ad_obj.Flot_div(2,0)
         
